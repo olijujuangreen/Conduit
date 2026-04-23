@@ -101,20 +101,6 @@ import Testing
 }
 ```
 
-## What Belongs Here
-
-- Generic request descriptions
-- URL request construction
-- URLSession-backed execution
-- JSON encoding and decoding hooks
-- Raw data responses
-- Empty responses
-- HTTP response metadata
-- Streaming bytes, lines, NDJSON, and server-sent events
-- Request adapters for generic header injection or tracing
-- Response observers for logging and metrics
-- Mock clients, request recorders, stubs, and fixture helpers
-
 ## Documentation Map
 
 - [`Architecture.md`](Architecture.md): how the package is layered
