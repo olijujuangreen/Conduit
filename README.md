@@ -56,4 +56,3 @@ struct UserService {
 - [`Errors.md`](Errors.md): error model and handling guidance
 - [`Streaming.md`](Streaming.md): byte streams, NDJSON, and SSE
 - [`Testing.md`](Testing.md): mocks, request recording, stubs, and fixtures
-- [`MigrationFromEkkos.md`](MigrationFromEkkos.md): differences from the old Ekkos target
