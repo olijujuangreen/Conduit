@@ -115,17 +115,6 @@ import Testing
 - Response observers for logging and metrics
 - Mock clients, request recorders, stubs, and fixture helpers
 
-## What Does Not Belong Here
-
-- Product-specific API clients
-- Token storage
-- User defaults
-- UI notifications
-- Environment selection policy
-- Backend-specific error phrase parsing
-- Product-specific headers
-- App login/logout behavior
-
 ## Documentation Map
 
 - [`Architecture.md`](Architecture.md): how the package is layered
