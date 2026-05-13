@@ -9,7 +9,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "Networking",
+    name: "Conduit",
     platforms: [
         .iOS(.v15),
         .macOS(.v12),

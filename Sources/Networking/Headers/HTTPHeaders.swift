@@ -9,6 +9,9 @@ import Foundation
 
 /// Ordered, case-insensitive collection of HTTP headers.
 public struct HTTPHeaders: ExpressibleByArrayLiteral, Sequence, Hashable, Sendable {
+    public var isEmpty: Bool { storage.isEmpty }
+    public var count: Int { storage.count }
+
     private var storage: [HTTPHeader]
 
     public init(_ headers: [HTTPHeader] = []) {
@@ -20,14 +23,6 @@ public struct HTTPHeaders: ExpressibleByArrayLiteral, Sequence, Hashable, Sendab
 
     public init(arrayLiteral elements: HTTPHeader...) {
         self.init(elements)
-    }
-
-    public var isEmpty: Bool {
-        storage.isEmpty
-    }
-
-    public var count: Int {
-        storage.count
     }
 
     public subscript(_ name: String) -> String? {

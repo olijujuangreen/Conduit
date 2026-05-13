@@ -103,10 +103,10 @@ import Testing
 
 ## Documentation Map
 
-- [`Architecture.md`](Architecture.md): how the package is layered
-- [`Usage.md`](Usage.md): common request, endpoint, and client examples
-- [`RequestBuilding.md`](RequestBuilding.md): how `HTTPRequest` becomes `URLRequest`
-- [`Errors.md`](Errors.md): error model and handling guidance
-- [`Streaming.md`](Streaming.md): byte streams, NDJSON, and SSE
-- [`Testing.md`](Testing.md): mocks, request recording, stubs, and fixtures
-- [`MigrationFromEkkos.md`](MigrationFromEkkos.md): differences from the old Ekkos target
+- [`Documentation/Architecture.md`](Documentation/Architecture.md): how the package is layered
+- [`Documentation/Usage.md`](Documentation/Usage.md): common request, endpoint, and client examples
+- [`Documentation/RequestBuilding.md`](Documentation/RequestBuilding.md): how `HTTPRequest` becomes `URLRequest`
+- [`Documentation/Errors.md`](Documentation/Errors.md): error model and handling guidance
+- [`Documentation/Streaming.md`](Documentation/Streaming.md): byte streams, NDJSON, and SSE
+- [`Documentation/Testing.md`](Documentation/Testing.md): mocks, request recording, stubs, and fixtures
+- [`Documentation/MigrationFromEkkos.md`](Documentation/MigrationFromEkkos.md): differences from the old Ekkos target
